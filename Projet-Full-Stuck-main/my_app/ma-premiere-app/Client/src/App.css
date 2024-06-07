@@ -1,0 +1,55 @@
+.App {
+  text-align: center;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  color: #333; /* Changement de la couleur du texte */
+  background-image: linear-gradient(79deg, #304352, #d7d2cc 48%, #a5b1c2); /* Changement du dégradé de fond */
+}
+
+.auth-form-container, .login-form, .register-form {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 600px) {
+  .auth-form-container {
+    padding: 5rem;
+    border-radius: 10px;
+    margin: 0.5rem;
+  }
+}
+
+label {
+  text-align: left;
+  padding: 0.25rem 0;
+}
+
+input {
+  margin: 0.5rem 0;
+  padding: 1rem;
+  border: none;
+  border-radius: 10px;
+}
+
+button {
+  border: none;
+  background-color: #007bff; /* Changement de la couleur de fond */
+  padding: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #fff; /* Changement de la couleur du texte */
+  transition: background-color 0.3s ease; /* Transition pour l'effet de survol */
+}
+
+button:hover {
+  background-color: #0056b3; /* Changement de couleur au survol */
+}
+
+.link-btn {
+  background: none;
+  color: #333; /* Changement de la couleur du texte */
+  text-decoration: underline;
+}
+
